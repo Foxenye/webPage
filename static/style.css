@@ -1,0 +1,169 @@
+.vue-back-to-top .default {
+    background-color: #1AB188 !important;
+}
+
+body {
+    background-color: lightblue;
+}
+
+.btn {
+    background-color: #1AB188 !important;
+    border: none;
+    color: white;
+    padding: 14px 26px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    opacity: 0.6;
+    transition: 0.3s;
+    font-size: 1em !important;
+    font-family: Arial !important;
+}
+
+.btn:hover {opacity: 1}
+
+.textarea {
+    background-color: #24313C !important;
+    border-style: solid !important;
+    border-width: 0.5px !important;
+    border-color: #435159 !important;
+    color: white !important;
+    display: inline-block;
+    resize: none;
+    overflow: hidden !important;
+    font-size: 1em !important;
+    font-family: Arial !important;
+}
+
+.textareaone {
+    height: 60px !important;
+    background-color: #24313C !important;
+    border-style: solid !important;
+    border-width: 0.5px !important;
+    border-color: #435159 !important;
+    color: white !important;
+    display: inline-block;
+    resize: none;
+    overflow: hidden !important;
+    font-size: 1em !important;
+    font-family: Arial !important;
+}
+
+.textareaoneWrong {
+  height: 60px !important;
+  background-color: #24313C !important;
+  border-style: solid !important;
+  border-width: 0.5px !important;
+  border-color: #c80e0e !important;
+  color: white !important;
+  display: inline-block;
+  resize: none;
+  overflow: hidden !important;
+  font-size: 1em !important;
+  font-family: Arial !important;
+}
+
+.input {
+    background-color: #24313C !important;
+    border-style: solid !important;
+    border-width: 0.5px !important;
+    border-color: #435159 !important;
+    color: white !important;
+    font-size: 14px;
+    display: inline-block;
+    resize: none;
+    overflow: hidden !important;
+}
+
+.inputWrong {
+  background-color: #24313C !important;
+  border-style: solid !important;
+  border-width: 0.5px !important;
+  border-color: #c80e0e !important;
+  color: white !important;
+  font-size: 14px;
+  display: inline-block;
+  resize: none;
+  overflow: hidden !important;
+}
+
+.textareaWrong {
+  background-color: #24313C !important;
+  border-style: solid !important;
+  border-width: 0.5px !important;
+  border-color: #c80e0e !important;
+  color: white !important;
+  display: inline-block;
+  resize: none;
+  overflow: hidden !important;
+  font-size: 1em !important;
+  font-family: Arial !important;
+}
+
+
+.block {
+    background-color: #24313C !important;
+}
+
+@import "https://cdn.jsdelivr.net/npm/animate.css@3.5.1";
+
+    body {
+      background: rgb(233, 233, 233);
+      font-family:Arial, Helvetica, sans-serif;
+      color: white;
+    }
+
+    html, body {
+      height: calc(200% - 80px);
+    }
+      #app {
+      background: #24313C;
+      width: 100%;
+      padding: 0px;
+      border-radius: 0px;
+      margin: 0px auto 0 auto;
+      height: calc(100% - 120px);
+      text-align: center;
+    }
+
+    .page {
+    position: fixed;
+    width: inherit;
+    }
+
+    .router-anim-enter-active {
+      animation: coming 1s;
+      animation-delay: 1.5s;
+      opacity: 0;
+    }
+
+    .router-anim-leave-active {
+      animation: going 1s;
+    }
+
+    @keyframes going {
+      from {
+        transform: translateX(0);
+      }
+    to {
+      transform: translateX(-50px);
+      opacity: 0;
+    }
+  }
+
+      @keyframes coming {
+      from {
+        transform: translateX(-50);
+        opacity: 0;
+      }
+      to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+  }
+  
+  .errormessage {
+    text-align: center;
+  }
